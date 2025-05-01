@@ -12,17 +12,20 @@ auth:
 
 app:
   title: Backstage App
-  baseUrl: http://localhost:3000
+  baseUrl: http://localhost:3200
 
 backend:
   title: Backstage Backend
   baseUrl: http://localhost:7007
   listen:
     port: 7007
+  reading:
+    allow:
+      - host: raw.githubusercontent.com
   csp:
     connect-src: ["'self'", 'http:', 'https:']
   cors:
-    origin: http://localhost:3000
+    origin: http://localhost:3200
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   database:
@@ -55,5 +58,5 @@ catalog:
     - allow: [Component, System, API, Resource, Location]
   locations:
     - type: url
-      target: https://github.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/catalog-info.yaml
+      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/catalog-info.yml
   useUrlReadersSearch: true
