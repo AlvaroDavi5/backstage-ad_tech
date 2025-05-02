@@ -46,7 +46,7 @@ integrations:
 techdocs:
   builder: 'local' # local | external
   generator:
-    runIn: 'docker' # local | docker
+    runIn: 'local' # local | docker
   publisher:
     type: 'local' # local | googleGcs | awsS3
 
@@ -58,9 +58,9 @@ catalog:
     - allow: [Component, System, API, Resource, Location, User, Group]
   locations:
     - type: file
-      target: ./groups.yaml
+      target: ../../groups.yaml
     - type: file
-      target: ./users.yaml
+      target: ../../users.yaml
     - type: url
       target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/system.yml
     - type: url
