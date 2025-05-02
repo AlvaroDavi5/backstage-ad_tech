@@ -66,5 +66,5 @@ catalog:
     - type: url
       target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/api.yml
     - type: url
-      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/catalog-info.yml
+      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/catalog-info.yml
   useUrlReadersSearch: true
