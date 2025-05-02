@@ -12,7 +12,7 @@ auth:
 
 app:
   title: Backstage App
-  baseUrl: http://localhost:3200
+  baseUrl: http://localhost:9003
 
 backend:
   title: Backstage Backend
@@ -25,7 +25,7 @@ backend:
   csp:
     connect-src: ["'self'", 'http:', 'https:']
   cors:
-    origin: http://localhost:3200
+    origin: http://localhost:9003
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   database:
