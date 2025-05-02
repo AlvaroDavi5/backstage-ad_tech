@@ -58,7 +58,13 @@ catalog:
     - allow: [Component, System, API, Resource, Location, User, Group]
   locations:
     - type: file
-      target: ./org.yaml
+      target: ./groups.yaml
+    - type: file
+      target: ./users.yaml
     - type: url
-      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/catalog-info.yml
+      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/system.yml
+    - type: url
+      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/api.yml
+    - type: url
+      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/catalog-info.yml
   useUrlReadersSearch: true
