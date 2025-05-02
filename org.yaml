@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devs
+spec:
+  type: team
+  profile:
+    displayName: Developers
+    email: devs@adtechsolutions.com
+  children: []
+
+piVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alvaro
+spec:
+  profile:
+    displayName: Alvaro Alves
+    email: alvaro-davi1@hotmail.com
+    picture: https://github.com/AlvaroDavi5.png
+  memberOf:
+    - devs
