@@ -61,10 +61,10 @@ catalog:
       target: ../../entities/groups/devs.group.yaml
     - type: file
       target: ../../entities/users/alvaro.user.yaml
-    - type: url
-      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/system.yml
-    - type: url
-      target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/api.yml
+    - type: file
+      target: ../../entities/locations/node-backend-boilerplate-system.location.yaml
+    - type: file
+      target: ../../entities/locations/node-backend-boilerplate-api.location.yaml
     - type: url
       target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/catalog-info.yml
   useUrlReadersSearch: true

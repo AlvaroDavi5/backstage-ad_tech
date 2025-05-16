@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: node-backend-boilerplate-api-location
+  description: Node.js Backend Boilerplate API Location
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/api.yml
