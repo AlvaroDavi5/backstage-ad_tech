@@ -58,9 +58,9 @@ catalog:
     - allow: [Component, System, API, Resource, Location, User, Group]
   locations:
     - type: file
-      target: ../../entities/devs.group.yaml
+      target: ../../entities/groups/devs.group.yaml
     - type: file
-      target: ../../entities/alvaro.user.yaml
+      target: ../../entities/users/alvaro.user.yaml
     - type: url
       target: https://raw.githubusercontent.com/AlvaroDavi5/Node_BackEnd_Boilerplate-TypeScript/refs/heads/main/infra/backstage/system.yml
     - type: url
